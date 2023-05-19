@@ -1,0 +1,553 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Demo.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Demo.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\css\\home.css",
+      "PackagePath": "staticwebassets\\css\\home.css"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\css\\style.min.css",
+      "PackagePath": "staticwebassets\\css\\style.min.css"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\css\\test2_signup.css",
+      "PackagePath": "staticwebassets\\css\\test2_signup.css"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\img\\Laptop-Lenovo-Ideapad-Gaming-3.jpg.crdownload",
+      "PackagePath": "staticwebassets\\img\\Laptop-Lenovo-Ideapad-Gaming-3.jpg.crdownload"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\img\\background_login.png",
+      "PackagePath": "staticwebassets\\img\\background_login.png"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\img\\cat-1.jpg",
+      "PackagePath": "staticwebassets\\img\\cat-1.jpg"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\img\\cat-2.jpg",
+      "PackagePath": "staticwebassets\\img\\cat-2.jpg"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\img\\cat-3.jpg",
+      "PackagePath": "staticwebassets\\img\\cat-3.jpg"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\img\\cat-4.jpg",
+      "PackagePath": "staticwebassets\\img\\cat-4.jpg"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\img\\customer\\iwlc8vcq.png",
+      "PackagePath": "staticwebassets\\img\\customer\\iwlc8vcq.png"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\img\\laptop-offer-1.png",
+      "PackagePath": "staticwebassets\\img\\laptop-offer-1.png"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\img\\laptop-offer-2.png",
+      "PackagePath": "staticwebassets\\img\\laptop-offer-2.png"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\img\\laptop-offer-3.png",
+      "PackagePath": "staticwebassets\\img\\laptop-offer-3.png"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\img\\laptop-offer-4.png",
+      "PackagePath": "staticwebassets\\img\\laptop-offer-4.png"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\img\\laptop-product1-mb-m1.jpg",
+      "PackagePath": "staticwebassets\\img\\laptop-product1-mb-m1.jpg"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\img\\laptop-product2-acerAS3.jpg",
+      "PackagePath": "staticwebassets\\img\\laptop-product2-acerAS3.jpg"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\img\\laptop-product3-dell-g15.jpg",
+      "PackagePath": "staticwebassets\\img\\laptop-product3-dell-g15.jpg"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\img\\laptop-product4-HP_victus-16.jpg",
+      "PackagePath": "staticwebassets\\img\\laptop-product4-HP_victus-16.jpg"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\img\\laptop-product5-ASUS-.jpg",
+      "PackagePath": "staticwebassets\\img\\laptop-product5-ASUS-.jpg"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\img\\laptop-product6-MSI-raider.jpg",
+      "PackagePath": "staticwebassets\\img\\laptop-product6-MSI-raider.jpg"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\img\\laptop-product7-LG-gram.jpg",
+      "PackagePath": "staticwebassets\\img\\laptop-product7-LG-gram.jpg"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\img\\laptop-product8-LNV-glim.jpg",
+      "PackagePath": "staticwebassets\\img\\laptop-product8-LNV-glim.jpg"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\img\\laptop-product9-dell-inspiron_6525.jpg",
+      "PackagePath": "staticwebassets\\img\\laptop-product9-dell-inspiron_6525.jpg"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\img\\laptop.jpg",
+      "PackagePath": "staticwebassets\\img\\laptop.jpg"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\img\\laptop1.png",
+      "PackagePath": "staticwebassets\\img\\laptop1.png"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\img\\laptop2.png",
+      "PackagePath": "staticwebassets\\img\\laptop2.png"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\img\\laptop3.png",
+      "PackagePath": "staticwebassets\\img\\laptop3.png"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\img\\lenovo-ideapad-gaming-3-15ihu6-i5-82k101f3vn-2.jpg",
+      "PackagePath": "staticwebassets\\img\\lenovo-ideapad-gaming-3-15ihu6-i5-82k101f3vn-2.jpg"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\img\\lenovo-ideapad-gaming-3-15ihu6-i5-82k101f3vn-3.jpg",
+      "PackagePath": "staticwebassets\\img\\lenovo-ideapad-gaming-3-15ihu6-i5-82k101f3vn-3.jpg"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\img\\lenovo-ideapad-gaming-3-15ihu6-i5-82k101f3vn-4.jpg",
+      "PackagePath": "staticwebassets\\img\\lenovo-ideapad-gaming-3-15ihu6-i5-82k101f3vn-4.jpg"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\img\\lenovo-ideapad-gaming-3-15ihu6-i5-82k101f3vn-6.jpg",
+      "PackagePath": "staticwebassets\\img\\lenovo-ideapad-gaming-3-15ihu6-i5-82k101f3vn-6.jpg"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\img\\lenovo-ideapad-gaming-3-15ihu6-i5-82k101f3vn-thongsokithuat.jpg",
+      "PackagePath": "staticwebassets\\img\\lenovo-ideapad-gaming-3-15ihu6-i5-82k101f3vn-thongsokithuat.jpg"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\img\\logo_lap.jpg",
+      "PackagePath": "staticwebassets\\img\\logo_lap.jpg"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\img\\news\\new001.jpg",
+      "PackagePath": "staticwebassets\\img\\news\\new001.jpg"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\img\\news\\new002.jpg",
+      "PackagePath": "staticwebassets\\img\\news\\new002.jpg"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\img\\news\\new003.jpg",
+      "PackagePath": "staticwebassets\\img\\news\\new003.jpg"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\img\\news\\new004.jpg",
+      "PackagePath": "staticwebassets\\img\\news\\new004.jpg"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\img\\payments.png",
+      "PackagePath": "staticwebassets\\img\\payments.png"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\img\\user.jpg",
+      "PackagePath": "staticwebassets\\img\\user.jpg"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\img\\vendors\\vendor_ACER.jpg",
+      "PackagePath": "staticwebassets\\img\\vendors\\vendor_ACER.jpg"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\img\\vendors\\vendor_APPLE.png",
+      "PackagePath": "staticwebassets\\img\\vendors\\vendor_APPLE.png"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\img\\vendors\\vendor_ASUS.jpg",
+      "PackagePath": "staticwebassets\\img\\vendors\\vendor_ASUS.jpg"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\img\\vendors\\vendor_DELL.png",
+      "PackagePath": "staticwebassets\\img\\vendors\\vendor_DELL.png"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\img\\vendors\\vendor_HP.jpg",
+      "PackagePath": "staticwebassets\\img\\vendors\\vendor_HP.jpg"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\img\\vendors\\vendor_LENOVO.png",
+      "PackagePath": "staticwebassets\\img\\vendors\\vendor_LENOVO.png"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\img\\vendors\\vendor_LG.jpg",
+      "PackagePath": "staticwebassets\\img\\vendors\\vendor_LG.jpg"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\img\\vendors\\vendor_MSI.jpg",
+      "PackagePath": "staticwebassets\\img\\vendors\\vendor_MSI.jpg"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\lib\\animate\\animate.min.css",
+      "PackagePath": "staticwebassets\\lib\\animate\\animate.min.css"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\lib\\easing\\easing.js",
+      "PackagePath": "staticwebassets\\lib\\easing\\easing.js"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\lib\\easing\\easing.min.js",
+      "PackagePath": "staticwebassets\\lib\\easing\\easing.min.js"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\lib\\owlcarousel\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\lib\\owlcarousel\\assets\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\ajax-loader.gif"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.carousel.css"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.carousel.min.css"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.default.css"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.green.css"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.min.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.green.min.css"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\lib\\owlcarousel\\assets\\owl.video.play.png",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.video.play.png"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\lib\\owlcarousel\\owl.carousel.js",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\owl.carousel.js"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\lib\\owlcarousel\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\owl.carousel.min.js"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\mail\\contact.js",
+      "PackagePath": "staticwebassets\\mail\\contact.js"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\mail\\contact.php",
+      "PackagePath": "staticwebassets\\mail\\contact.php"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\mail\\jqBootstrapValidation.min.js",
+      "PackagePath": "staticwebassets\\mail\\jqBootstrapValidation.min.js"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Demo.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.Demo.props",
+      "PackagePath": "build\\Demo.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Demo.props",
+      "PackagePath": "buildMultiTargeting\\Demo.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.Demo.props",
+      "PackagePath": "buildTransitive\\Demo.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

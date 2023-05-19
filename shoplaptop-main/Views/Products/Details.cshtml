@@ -1,0 +1,441 @@
+﻿@model Demo.Models.Product
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div class="row">
+    <div class="container-fluid pb-5">
+        <div class="row px-xl-5">
+            <div class="col-lg-5 mb-30">
+                <div id="product-carousel" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner bg-light">
+                        <div class="carousel-item active">
+                            <img class="w-100 h-100" src="/img/@Model.ImageUrl" alt="Image">
+                        </div>
+
+                    </div>
+                    <a class="carousel-control-prev" href="#product-carousel" data-slide="prev">
+                        <i class="fa fa-2x fa-angle-left text-dark"></i>
+                    </a>
+                    <a class="carousel-control-next" href="#product-carousel" data-slide="next">
+                        <i class="fa fa-2x fa-angle-right text-dark"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-lg-7 h-auto mb-30">
+                <div class="h-100 bg-light p-30">
+                    <h3>@Model.Name</h3>
+                    <div class="d-flex mb-3">
+                        <div class="text-primary mr-2">
+                            <small class="fas fa-star"></small>
+                            <small class="fas fa-star"></small>
+                            <small class="fas fa-star"></small>
+                            <small class="fas fa-star-half-alt"></small>
+                            <small class="far fa-star"></small>
+                        </div>
+                        <small class="pt-1">(99 Reviews)</small>
+                    </div>
+                    <div class="tittle-chinhsach">
+                        <!--<i class="fa-duotone fa-arrows-retweet" style="--fa-primary-color: #d08e43; --fa-secondary-color: #c4a673;"></i>-->
+                        <p class="mb-4">Bảo hành chính hãng laptop 2 năm</p>
+                    </div>
+                    <div class="tittle-chinhsach">
+                        <p class="mb-4">Bộ sản phẩm gồm: Sách hướng dẫn, Thùng máy, Sạc Laptop Lenovo ( 135W )</p>
+                    </div>
+                    <div class="d-flex align-items-center mb-4 pt-2">
+                        <div class="input-group quantity mr-3" style="width: 130px;">
+                            <div class="input-group-btn">
+                                <button class="btn btn-primary btn-minus">
+                                    <i class="fa fa-minus"></i>
+                                </button>
+                            </div>
+                            <input type="text" class="form-control bg-secondary border-0 text-center" value="1">
+                            <div class="input-group-btn">
+                                <button class="btn btn-primary btn-plus">
+                                    <i class="fa fa-plus"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary px-3">
+                            <i class="fa fa-shopping-cart mr-1"></i> Add To
+                            Cart
+                        </button>
+                    </div>
+                    <div class="d-flex pt-2">
+                        <strong class="text-dark mr-2">Share on:</strong>
+                        <div class="d-inline-flex">
+                            <a class="text-dark px-2" href="">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a class="text-dark px-2" href="">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a class="text-dark px-2" href="">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a class="text-dark px-2" href="">
+                                <i class="fab fa-pinterest"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row px-xl-5">
+            <div class="col">
+                <div class="bg-light p-30">
+                    <div class="nav nav-tabs mb-4">
+                        <a class="nav-item nav-link text-dark active" data-toggle="tab" href="#tab-pane-1">Description</a>
+                        <a class="nav-item nav-link text-dark" data-toggle="tab" href="#tab-pane-2">Information</a>
+                        <a class="nav-item nav-link text-dark" data-toggle="tab" href="#tab-pane-3">Reviews (0)</a>
+                    </div>
+                    <div class="tab-content">
+                        <div class="tab-pane fade show active" id="tab-pane-1">
+                            <h4 class="mb-3">Thông tin sản phẩm</h4>
+                            <p>Nếu bạn đang tìm kiếm một chiếc laptop gaming sở hữu thông số cấu hình mạnh mẽ nhưng có giá bán dễ tiếp cận thì laptop Lenovo Ideapad Gaming 3 15IHU6 i5 (82K101F3VN) là cái tên hàng đầu mà bạn nên tham khảo.</p>
+                            <p>• Laptop Lenovo Ideapad Gaming được trang bị combo hiệu năng cao: CPU Intel Core i5 11320H và card đồ họa rời NVIDIA GeForce GTX 1650 4 GB, không chỉ cho phép bạn chiến game mượt mà ở mức cấu hình cao mà còn có thể hiện thực những bản thiết kế đồ họa phức tạp trên các phần mềm Adobe.</p>
+                            <p>• RAM 8 GB đủ để vận hành trơn tru những tác vụ thông thường, có 1 khe rời để bạn nâng cấp lên 16 GB giúp tăng khả năng xử lý công việc nặng. Ổ cứng SSD 512 GB tốc độ cao khiến cho mọi thao tác đều được phản hồi tức thời, có khe cắm HDD SATA 2.5 inch để bạn thoải mái lưu trữ dữ liệu, tải trò chơi.</p>
+                            <p>• Màn hình 15.6 inch độ phân giải Full HD (1920 x 1080) cùng tấm nền IPS mở rộng góc nhìn giúp nâng cao khả năng hiển thị, màu sắc tái tạo hài hòa và nịnh mắt. Màn hình còn hỗ trợ tần số quét 120 Hz tái hiện hoàn hảo mọi pha chuyển động nhanh để bạn xử lý nhanh nhạy hơn khi chiến những tựa game FPS.</p>
+                            <p>• Âm thanh to rõ cùng hiệu ứng âm vòng 3D sống động đến từ công nghệ Nahimic Audio chắc chắn sẽ khiến bạn đắm chìm vào không gian giải trí, những đấu trường ảo kịch tính.</p>
+                            <p>• Laptop Lenovo có thiết kế vỏ nhựa cứng cáp cùng tông màu đen nam tính giúp bạn tự tin hơn khi sử dụng máy trước đám đông. Đèn bàn phím chuyển màu RGB làm tăng cảm hứng chiến đấu cũng như dễ dàng thao tác trong môi trường tối.</p>
+                            <p>• Laptop được trang bị công tắc khóa camera và chip TPM 2.0 giữ cho mọi thông tin cá nhân của bạn đều được an toàn tuyệt đối trước những nguy cơ xâm nhập trái phép từ nguồn không xác định.</p>
+                            <p>• Cổng kết nối đa dạng dễ dàng liên kết với mọi thiết bị ngoại vi: Jack tai nghe 3.5 mm, USB 3.2, HDMI, LAN (RJ45) và USB Type-C.</p>
+                        </div>
+                        <div class="tab-pane fade" id="tab-pane-2">
+                            <h4 class="mb-3">Thông tin chi tiết</h4>
+                            <img src="img/lenovo-ideapad-gaming-3-15ihu6-i5-82k101f3vn-thongsokithuat.jpg" alt="">
+                            <div class="content-t-wrap">
+                                <div class="parameter-all">
+                                    <div class="parameter-item">
+                                        <p class="parameter-ttl" data-group-id="32" data-index="1">Bộ xử lý</p>
+                                        <ul class="ulist ">
+                                            <li data-id="28727" data-group-id="32" data-index="1" class="parameter-decs">
+                                                <div class="ctLeft">
+                                                    <p>Công nghệ CPU:</p>
+                                                </div>
+                                                <div class="ctRight">
+                                                    <p>Intel Core i5 Tiger Lake - 11320H</p>
+                                                </div>
+                                            </li>
+                                            <li data-id="28859" data-group-id="32" data-index="4" class="parameter-decs">
+                                                <div class="ctLeft">
+                                                    <p>Số nhân:</p>
+                                                </div>
+                                                <div class="ctRight">
+                                                    <span class="">4</span>
+                                                </div>
+                                            </li>
+                                            <li data-id="28860" data-group-id="32" data-index="5" class="parameter-decs">
+                                                <div class="ctLeft">
+                                                    <p>Số luồng:</p>
+                                                </div>
+                                                <div class="ctRight">
+                                                    <span class="">8</span>
+                                                </div>
+                                            </li>
+                                            <li data-id="93" data-group-id="32" data-index="6" class="parameter-decs">
+                                                <div class="ctLeft">
+                                                    <p>Tốc độ CPU:</p>
+                                                </div>
+                                                <div class="ctRight">
+                                                    <span class="">3.20 GHz</span>
+                                                </div>
+                                            </li>
+                                            <li data-id="97" data-group-id="32" data-index="7" class="parameter-decs">
+                                                <div class="ctLeft">
+                                                    <p>Tốc độ tối đa:</p>
+                                                </div>
+                                                <div class="ctRight">
+                                                    <p>Turbo Boost 4.5 GHz</p>
+                                                </div>
+                                            </li>
+                                            <li data-id="28861" data-group-id="32" data-index="8" class="parameter-decs">
+                                                <div class="ctLeft">
+                                                    <p>Bộ nhớ đệm:</p>
+                                                </div>
+                                                <div class="ctRight">
+                                                    <span class="">8 MB</span>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="parameter-item">
+                                        <p class="parameter-ttl" data-group-id="34" data-index="3">Bộ nhớ RAM, Ổ cứng</p>
+                                        <ul class="ulist ">
+                                            <li data-id="146" data-group-id="34" data-index="1" class="parameter-decs">
+                                                <div class="ctLeft">
+                                                    <p>RAM:</p>
+                                                </div>
+                                                <div class="ctRight">
+                                                    <p>8 GB</p>
+                                                </div>
+                                            </li>
+                                            <li data-id="149" data-group-id="34" data-index="2" class="parameter-decs">
+                                                <div class="ctLeft">
+                                                    <p>Loại RAM:</p>
+                                                </div>
+                                                <div class="ctRight">
+                                                    <p>DDR4 2 khe (1 khe 8 GB + 1 khe rời)</p>
+                                                </div>
+                                            </li>
+                                            <li data-id="155" data-group-id="34" data-index="3" class="parameter-decs">
+                                                <div class="ctLeft">
+                                                    <p>Tốc độ Bus RAM:</p>
+                                                </div>
+                                                <div class="ctRight">
+                                                    <span class="">3200 MHz</span>
+                                                </div>
+                                            </li>
+                                            <li data-id="137" data-group-id="34" data-index="4" class="parameter-decs">
+                                                <div class="ctLeft">
+                                                    <p>Hỗ trợ RAM tối đa:</p>
+                                                </div>
+                                                <div class="ctRight">
+                                                    <span class="">16 GB</span>
+                                                </div>
+                                            </li>
+                                            <li data-id="184" data-group-id="34" data-index="5" class="parameter-decs">
+                                                <div class="ctLeft">
+                                                    <p>Ổ cứng:</p>
+                                                </div>
+                                                <div class="ctRight">
+                                                    <span class="comma">Hỗ trợ khe cắm HDD SATA 2.5 inch mở rộng (nâng cấp tối đa 1 TB)</span>
+                                                    <span>512 GB SSD NVMe PCIe (Có thể tháo ra, lắp thanh khác tối đa 1 TB (2280) / 512 GB (2242))</span>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="parameter-item">
+                                        <p class="parameter-ttl" data-group-id="52" data-index="4">Màn hình</p>
+                                        <ul class="ulist ">
+                                            <li data-id="187" data-group-id="52" data-index="1" class="parameter-decs">
+                                                <div class="ctLeft">
+                                                    <p>Màn hình:</p>
+                                                </div>
+                                                <div class="ctRight">
+                                                    <span class="">15.6 inch</span>
+                                                </div>
+                                            </li>
+                                            <li data-id="189" data-group-id="52" data-index="2" class="parameter-decs">
+                                                <div class="ctLeft">
+                                                    <p>Độ phân giải:</p>
+                                                </div>
+                                                <div class="ctRight">
+                                                    <span>Full HD (1920 x 1080)</span>
+                                                </div>
+                                            </li>
+                                            <li data-id="29056" data-group-id="52" data-index="3" class="parameter-decs">
+                                                <div class="ctLeft">
+                                                    <p>Tần số quét:</p>
+                                                </div>
+                                                <div class="ctRight">
+                                                    <span>120 Hz</span>
+                                                </div>
+                                            </li>
+                                            <li data-id="186" data-group-id="52" data-index="4" class="parameter-decs">
+                                                <div class="ctLeft">
+                                                    <p>Công nghệ màn hình:</p>
+                                                </div>
+                                                <div class="ctRight">
+                                                    <p class="circle">
+                                                        <span>Tấm nền IPS</span>
+                                                    </p>
+                                                    <p class="circle">
+                                                        <span>Chống chói Anti Glare</span>
+                                                    </p>
+                                                    <p class="circle">
+                                                        <span>250 nits</span>
+                                                    </p>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="parameter-item">
+                                        <p class="parameter-ttl" data-group-id="53" data-index="6">Đồ họa và Âm thanh</p>
+                                        <ul class="ulist ">
+                                            <li data-id="28123" data-group-id="53" data-index="0" class="parameter-decs">
+                                                <div class="ctLeft">
+                                                    <p>Card màn hình:</p>
+                                                </div>
+                                                <div class="ctRight">
+                                                    <span class="">Card rời - NVIDIA GeForce GTX 1650 4 GB</span>
+                                                </div>
+                                            </li>
+                                            <li data-id="196" data-group-id="53" data-index="3" class="parameter-decs">
+                                                <div class="ctLeft">
+                                                    <p>Công nghệ âm thanh:</p>
+                                                </div>
+                                                <div class="ctRight">
+                                                    <span>Nahimic Audio</span>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="parameter-item">
+                                        <p class="parameter-ttl" data-group-id="56" data-index="7">Cổng kết nối &amp; tính năng mở rộng</p>
+                                        <ul class="ulist ">
+                                            <li data-id="200" data-group-id="56" data-index="1" class="parameter-decs">
+                                                <div class="ctLeft">
+                                                    <p>Cổng giao tiếp:</p>
+                                                </div>
+                                                <div class="ctRight">
+                                                    <p class="circle">HDMI</p>
+                                                    <p class="circle">Jack tai nghe 3.5 mm</p>
+                                                    <p class="circle">2 x USB 3.2</p>
+                                                    <p class="circle">1 x USB Type-C (chỉ hỗ trợ truyền dữ liệu)</p>
+                                                    <p class="circle">LAN (RJ45)</p>
+                                                </div>
+                                            </li>
+                                            <li data-id="206" data-group-id="56" data-index="4" class="parameter-decs">
+                                                <div class="ctLeft">
+                                                    <p>Kết nối không dây:</p>
+                                                </div>
+                                                <div class="ctRight">
+                                                    <span>Bluetooth 5.0</span>
+                                                    <span>Wi-Fi 6 (802.11ax)</span>
+                                                </div>
+                                            </li>
+                                            <li data-id="223" data-group-id="56" data-index="7" class="parameter-decs">
+                                                <div class="ctLeft">
+                                                    <p>Webcam:</p>
+                                                </div>
+                                                <div class="ctRight">
+                                                    <span>HD webcam</span>
+                                                </div>
+                                            </li>
+                                            <li data-id="201" data-group-id="56" data-index="9" class="parameter-decs">
+                                                <div class="ctLeft">
+                                                    <p>Tính năng khác:</p>
+                                                </div>
+                                                <div class="ctRight">
+                                                    <p class="circle">TPM 2.0</p>
+                                                    <p class="circle">Đèn bàn phím chuyển màu RGB</p>
+                                                    <p class="circle">Công tắc khóa camera</p>
+                                                </div>
+                                            </li>
+                                            <li data-id="10741" data-group-id="56" data-index="10" class="parameter-decs">
+                                                <div class="ctLeft">
+                                                    <p>Đèn bàn phím:</p>
+                                                </div>
+                                                <div class="ctRight">
+                                                    <span>Có</span>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="parameter-item">
+                                        <p class="parameter-ttl" data-group-id="62" data-index="15">Kích thước &amp; khối lượng</p>
+                                        <ul class="ulist ">
+                                            <li data-id="7779" data-group-id="62" data-index="1" class="parameter-decs">
+                                                <div class="ctLeft">
+                                                    <p>Kích thước, khối lượng:</p>
+                                                </div>
+                                                <div class="ctRight">
+                                                    <span class="">Dài 359.6 mm - Rộng 251.9 mm - Dày 24.2 mm - Nặng 2.25 kg</span>
+                                                </div>
+                                            </li>
+                                            <li data-id="7903" data-group-id="62" data-index="20" class="parameter-decs">
+                                                <div class="ctLeft">
+                                                    <p>Chất liệu:</p>
+                                                </div>
+                                                <div class="ctRight">
+                                                    <span>Vỏ nhựa</span>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="parameter-item">
+                                        <p class="parameter-ttl" data-group-id="60" data-index="16">Thông tin khác</p>
+                                        <ul class="ulist ">
+                                            <li data-id="228" data-group-id="60" data-index="2" class="parameter-decs">
+                                                <div class="ctLeft">
+                                                    <p>Thông tin Pin:</p>
+                                                </div>
+                                                <div class="ctRight">
+                                                    <span>45 Wh</span>
+                                                </div>
+                                            </li>
+                                            <li data-id="8599" data-group-id="60" data-index="4" class="parameter-decs">
+                                                <div class="ctLeft">
+                                                    <p>Hệ điều hành:</p>
+                                                </div>
+                                                <div class="ctRight">
+                                                    <span>Windows 11 Home SL</span>
+                                                </div>
+                                            </li>
+                                            <li data-id="22711" data-group-id="60" data-index="5" class="parameter-decs">
+                                                <div class="ctLeft">
+                                                    <p>Thời điểm ra mắt:</p>
+                                                </div>
+                                                <div class="ctRight">
+                                                    <span class="">2022</span>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="tab-pane-3">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h4 class="mb-4">1 review for @Model.Name</h4>
+                                    <div class="media mb-4">
+                                        <img src="img/customer/iwlc8vcq.png" alt="Image" class="img-fluid mr-3 mt-1" style="width: 45px;">
+                                        <div class="media-body">
+                                            <h6>Trần Hoàng Thế Linh<small> - <i>01 Jan 2023</i></small></h6>
+                                            <div class="text-primary mb-2">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star-half-alt"></i>
+                                                <i class="far fa-star"></i>
+                                            </div>
+                                            <p>mình cần tư vẫn về máy tính này ạ</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <h4 class="mb-4">Leave a review</h4>
+                                    <small>Your email address will not be published. Required fields are marked *</small>
+                                    <div class="d-flex my-3">
+                                        <p class="mb-0 mr-2">Your Rating * :</p>
+                                        <div class="text-primary">
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <form>
+                                        <div class="form-group">
+                                            <label for="message">Your Review *</label>
+                                            <textarea id="message" cols="30" rows="5" class="form-control"></textarea>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="name">Your Name *</label>
+                                            <input type="text" class="form-control" id="name">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="email">Your Email *</label>
+                                            <input type="email" class="form-control" id="email">
+                                        </div>
+                                        <div class="form-group mb-0">
+                                            <input type="submit" value="Leave Your Review" class="btn btn-primary px-3">
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Shop Detail End -->
+</div>
