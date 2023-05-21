@@ -15,13 +15,6 @@
             <div class="col-lg-4 col-6 text-left">
                 <form asp-controller="Products" asp-action="Index">
                     <div class="input-group">
-                    <select name="catId" class="input-select">
-                        <option value="0">Tất cả danh mục</option>
-                        @foreach (var item in Model)
-                        {
-                            <option value="@item.Id">@item.Name</option>
-                        }
-                    </select>
                         <input type="text" class="form-control" name="keyword" placeholder="Search for products">
                         <div class="input-group-append">
                             <span class="input-group-text bg-transparent text-primary">
@@ -32,19 +25,22 @@
                 </form>
             </div>
             <div class="col-lg-4 col-6 text-right">
-                @if(User.Identity.IsAuthenticated && User.IsInRole("Admin"))
-				{<div>
-                <li><a href ="/Products/Create"type="button"  >Quản lí</li>
-                <li><a href="/Users/Logout " type="button">Thoát</li>
-                </div>
-                }
-                else if (User.Identity.IsAuthenticated && User.IsInRole("User"))
-                 {
-                <div><a href ="/Users/Logout "type="button"  >Thoát</div>
-                   }
-                else
-                {
-                <div><a href="/Users/Login " type="button" >Đăng nhập</div>
+                @{
+                    if(User.Identity.IsAuthenticated && User.IsInRole("Admin"))
+				    {
+                        
+                            <li><a href ="/Products/Create"type="button">Quản lí</li>
+                            <li><a href="/Users/Logout " type="button">Thoát</li>
+                        
+                    }
+                    else if (User.Identity.IsAuthenticated && User.IsInRole("User"))
+                    {
+                        <a href="/Users/Logout " type="button">Thoát</a>   
+                    }
+                    else
+                    {
+                        <a href="/Users/Login " type="button">Đăng nhập</a>
+                    }
                 }
             </div>
         </div>

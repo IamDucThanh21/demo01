@@ -12,6 +12,8 @@ namespace Demo.Models
         public string? ImageUrl { get; set; }
         public decimal Price { get; set; }
         public int Quantity   { get; set; }
+
+
         [ForeignKey("Category")]
         public int CategoryId { get; set; }
         public virtual Category? category { get; set;} 
