@@ -20,6 +20,10 @@ namespace Demo.Controllers
             return View(_context.Product.Include(p => p.category).ToList());
         }
 
+        public IActionResult Contact()
+        {
+            return View();
+        }
         public IActionResult Privacy()
         {
             return View();

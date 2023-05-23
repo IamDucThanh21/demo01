@@ -30,7 +30,7 @@ namespace Demo.Controllers
                           Problem("Entity set 'DemoContext.User'  is null.");
         }
 
-        // GET: Users/Details/5
+        // GET: Users/Details
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null || _context.User == null)
@@ -51,6 +51,7 @@ namespace Demo.Controllers
         {
             return View();
         }
+
         [HttpPost]
         public IActionResult Login(string name,string password)
         {

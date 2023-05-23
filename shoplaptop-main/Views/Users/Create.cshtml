@@ -1,48 +1,97 @@
 ﻿@model Demo.Models.User
 
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "Đăng ký";
+    Layout = null;
 }
 
-<h1>Create</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng ký</title>
 
-<h4>User</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Create">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="Name" class="control-label"></label>
-                <input asp-for="Name" class="form-control" />
-                <span asp-validation-for="Name" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Email" class="control-label"></label>
-                <input asp-for="Email" class="form-control" />
-                <span asp-validation-for="Email" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Password" class="control-label"></label>
-                <input asp-for="Password" class="form-control" />
-                <span asp-validation-for="Password" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Role" class="control-label"></label>
-                <input asp-for="Role" class="form-control" />
-                <span asp-validation-for="Role" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
-            </div>
-        </form>
-    </div>
-</div>
+    <link href="~/css/style.min.css" rel="stylesheet" />
+    <link href="~/css/style.css" rel="stylesheet" />
 
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <section class="vh-100">
+        <div class="container-fluid h-custom" style="height: 100%;">
+            <div class="row d-flex justify-content-center align-items-center h-100">
+                <div class="col-md-9 col-lg-6 col-xl-5">
+                    <img src="~/img/bg_signup.png"
+                         class="img-fluid" alt="Sample image">
+                </div>
+                <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
+                    <form>
+                        <div class="text-center">
+                            <h3 class="mb-5" style="font-size: 50px;">Sign up</h3>
+                        </div>
+                        <!-- 2 column grid layout with text inputs for the first and last names -->
+                        <div class="row">
+                            <div class="col-md-6 mb-4">
+                                <div class="form-outline">
+                                    <input type="First-name" id="form3Example1" class="form-control" placeholder="First name" style="border-radius: 8px; height: 50px;" />
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-4">
+                                <div class="form-outline">
+                                    <input type="text" id="form3Example2" class="form-control" placeholder="Last name" style="border-radius: 8px; height: 50px;" />
+                                </div>
+                            </div>
+                        </div>
 
-@section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
-}
+                        <!-- Email input -->
+                        <div class="form-outline mb-4">
+                            <input type="email" id="form3Example3" class="form-control" placeholder="Email Address" style="border-radius: 8px; height: 50px;" />
+                        </div>
+
+                        <!-- Password input -->
+                        <div class="form-outline mb-4">
+                            <input type="password" id="form3Example4" class="form-control" placeholder="Password" style="border-radius: 8px; height: 50px;" />
+                        </div>
+
+                        <!-- Checkbox -->
+                        <div class=" d-flex justify-content-between mb-4">
+                            <p class="small fw-bold mt-2 pt-1 mb-0">
+                                You have an account? <a href="~/Users/Login"
+                                                        class="link-danger">Sign in now</a>
+                            </p>
+                        </div>
+
+                        <!-- Submit button -->
+                        <button type="submit" class="btn btn-primary btn-block mb-4" style="border-radius: 8px; height: 50px; font-size: 25px;">
+                            Sign up
+                        </button>
+
+                        <!-- Register buttons -->
+                        <div class="text-center">
+                            <p>or sign up with:</p>
+
+                            <button type="button" class="btn btn-link btn-floating mx-1" style="color: blue; font-size: 20px;">
+                                <i class="fab fa-facebook-f"></i>
+                            </button>
+
+                            <button type="button" class="btn btn-link btn-floating mx-1" style="color: crimson;font-size: 20px;">
+                                <i class="fab fa-google"></i>
+                            </button>
+
+                            <button type="button" class="btn btn-link btn-floating mx-1" style="color: dodgerblue;font-size: 20px;">
+                                <i class="fab fa-twitter"></i>
+                            </button>
+
+                            <button type="button" class="btn btn-link btn-floating mx-1" style="color: black;font-size: 20px;">
+                                <i class="fab fa-github"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+    </section>
+</body>
+</html>
