@@ -61,6 +61,14 @@
       "PackagePath": "staticwebassets\\img\\background_login.png"
     },
     {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\img\\bg_login.png",
+      "PackagePath": "staticwebassets\\img\\bg_login.png"
+    },
+    {
+      "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\img\\bg_signup.png",
+      "PackagePath": "staticwebassets\\img\\bg_signup.png"
+    },
+    {
       "Id": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\img\\cat-1.jpg",
       "PackagePath": "staticwebassets\\img\\cat-1.jpg"
     },

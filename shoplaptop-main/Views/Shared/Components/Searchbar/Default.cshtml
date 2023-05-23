@@ -28,10 +28,8 @@
                 @{
                     if(User.Identity.IsAuthenticated && User.IsInRole("Admin"))
 				    {
-                        
                             <li><a href ="/Products/Create"type="button">Quản lí</li>
                             <li><a href="/Users/Logout " type="button">Thoát</li>
-                        
                     }
                     else if (User.Identity.IsAuthenticated && User.IsInRole("User"))
                     {

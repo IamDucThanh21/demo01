@@ -44,6 +44,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/ki4/PBL3_tong_hop/PBL3_19-5-2023/shoplaptop-main/Views/Products/Cart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcQ2FydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/ki4/PBL3_tong_hop/PBL3_19-5-2023/shoplaptop-main/Views/Products/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -84,10 +88,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ki4/PBL3_tong_hop/PBL3_19-5-2023/shoplaptop-main/Views/Shared/_Products.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Qcm9kdWN0cy5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
 [D:/ki4/PBL3_tong_hop/PBL3_19-5-2023/shoplaptop-main/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -114,6 +114,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/ki4/PBL3_tong_hop/PBL3_19-5-2023/shoplaptop-main/Views/Users/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ki4/PBL3_tong_hop/PBL3_19-5-2023/shoplaptop-main/Views/Users/Signup.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcU2lnbnVwLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/ki4/PBL3_tong_hop/PBL3_19-5-2023/shoplaptop-main/Views/_ViewImports.cshtml]

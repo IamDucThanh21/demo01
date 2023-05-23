@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "dVFWffYegVjYQSEJVVubS4/a2aaip8k7BZYObhDfnr4=",
+  "Hash": "zJL4jh0U00M3Ov5tQjGmfaIWyrjc9WdoJoJS7rmAU54=",
   "Source": "Demo",
   "BasePath": "_content/Demo",
   "Mode": "Default",
@@ -270,6 +270,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\background_login.png"
+    },
+    {
+      "Identity": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\img\\bg_login.png",
+      "SourceId": "Demo",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\",
+      "BasePath": "_content/Demo",
+      "RelativePath": "img/bg_login.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\bg_login.png"
+    },
+    {
+      "Identity": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\img\\bg_signup.png",
+      "SourceId": "Demo",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\",
+      "BasePath": "_content/Demo",
+      "RelativePath": "img/bg_signup.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\bg_signup.png"
     },
     {
       "Identity": "D:\\ki4\\PBL3_tong_hop\\PBL3_19-5-2023\\shoplaptop-main\\wwwroot\\img\\cat-1.jpg",

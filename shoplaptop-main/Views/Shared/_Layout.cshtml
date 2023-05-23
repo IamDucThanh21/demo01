@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-    <title>Website Laptop</title>
+    <title>@ViewBag.title</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Free HTML Templates" name="keywords">
     <meta content="Free HTML Templates" name="description">
@@ -18,11 +18,13 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
 
     <!-- Libraries Stylesheet -->
-    <link href="/lib/animate/animate.min.css" rel="stylesheet">
-    <link href="/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="~/lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="~/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="/css/style.css" rel="stylesheet">
+    <link href="~/css/style.min.css" rel="stylesheet" />
+    <link href="~/css/style.css" rel="stylesheet" />
+    
 </head>
 
 <body>
@@ -31,149 +33,58 @@
     <!-- Topbar End -->
 
     <!-- Navbar Start -->
-    @await Component.InvokeAsync("Navbar");
+    <div class="container-fluid bg-dark mb-30">
+        <div class="row px-xl-5">
+            @await Component.InvokeAsync("Navbar")
+            <div class="col-lg-9">
+                <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 py-lg-0 px-0">
+                    <a href="" class="text-decoration-none d-block d-lg-none">
+                        <span class="h1 text-uppercase text-dark bg-light px-2">Multi</span>
+                        <span class="h1 text-uppercase text-light bg-primary px-2 ml-n1">Shop</span>
+                    </a>
+                    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                        <div class="navbar-nav mr-auto py-0">
+                            <a href="~/Home/Index" class="nav-item nav-link active">Home</a>
+                            <a href="~/Products/Index" class="nav-item nav-link ">Shop</a>
+                            <a href="~/Products/Details" class="nav-item nav-link">Shop Detail</a>
+
+                            <div class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages <i class="fa fa-angle-down mt-1"></i></a>
+                                <div class="dropdown-menu bg-primary rounded-0 border-0 m-0">
+                                    <a href="cart.html" class="dropdown-item">Shopping Cart</a>
+                                    <a href="checkout.html" class="dropdown-item">Checkout</a>
+                                </div>
+                            </div>
+
+                            <a href="contact.html" class="nav-item nav-link">Contact</a>
+
+                        </div>
+                        <div class="navbar-nav ml-auto py-0 d-none d-lg-block">
+                            <a href="" class="btn px-0">
+                                <i class="fas fa-heart text-primary"></i>
+                                <span class="badge text-secondary border border-secondary rounded-circle" style="padding-bottom: 2px;">0</span>
+                            </a>
+                            <a href="~/Products/Cart" class="btn px-0 ml-3">
+                                <i class="fas fa-shopping-cart text-primary"></i>
+                                <span class="badge text-secondary border border-secondary rounded-circle" style="padding-bottom: 2px;">0</span>
+                            </a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    
     <!-- Navbar End -->
 
-    <!-- Products Start -->
-    @RenderBody()
-    <!-- Products End -->
-
-    <!-- Offer Start -->
-    <div class="container-fluid pt-5 pb-3">
-        <div class="row px-xl-5">
-            <div class="col-md-6">
-                <div class="product-offer mb-30" style="height: 370px;">
-                    <img class="img-fluid" src="img/laptop-offer-3.png" alt="">
-                    <div class="offer-text">
-                        <h6 class="text-white text-uppercase">Save 20%</h6>
-                        <h3 class="text-white mb-3">Special Offer</h3>
-                        <a href="" class="btn btn-primary">Shop Now</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="product-offer mb-30" style="height: 370px;">
-                    <img class="img-fluid" src="img/laptop-offer-4.png" alt="">
-                    <div class="offer-text">
-                        <h6 class="text-white text-uppercase">Save 20%</h6>
-                        <h3 class="text-white mb-3">Special Offer</h3>
-                        <a href="" class="btn btn-primary">Shop Now</a>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <div class="container-fluid">
+        @RenderBody()
     </div>
-    <!-- Offer End -->
-
-    <!--Technology News start-->
-    <div class="container-fluid pt-5 pb-3">
-        <h2 class="section-title position-relative text-uppercase mx-xl-5 mb-4"><span class="bg-secondary pr-3">TECHNOLOGY NEWS</span></h2>
-        <div class="row px-xl-5">
-            <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
-                <div class="item-news">
-                    <a class="thumnail-tintuc mr-333" href="https://www.thegioididong.com/tin-tuc/laptop-asus-tuf-gaming-4-ryzen-ra-mat-1527703">
-                        <img class="img-fluid" src="img/news/new001.jpg" alt="laptop ASUS TUF GAMING" style="width: 250px; height: 141px;">
-                    </a>
-                    <div class="media-body">
-                        <div class="info-tintuc">
-                            <span class="date-create">"27 - 04 - 2023, 5:00pm"</span>
-                        </div>
-                        <div class="title-tintuc">
-                            <a href="https://www.thegioididong.com/tin-tuc/laptop-asus-tuf-gaming-4-ryzen-ra-mat-1527703">Laptop gaming ASUS TUF Gaming 4 Ryzen Edition ra mắt: Ryzen 9 7940H, RTX 4070</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
-                <div class="item-news">
-                    <a class="thumnail-tintuc mr-333" href="https://genk.vn/trai-nghiem-msi-cyborg-15-thiet-ke-dam-chat-cyberpunk-cau-hinh-manh-me-20230427223556419.chn">
-                        <img class="img-fluid" src="img/news/new002.jpg" alt="laptop MSI Cyborg 15" style="width: 250px; height: 141px;">
-                    </a>
-                    <div class="media-body">
-                        <div class="info-tintuc">
-                            <span class="date-create">
-                                "28 - 04 - 2023, 3:00pm"
-                            </span>
-                        </div>
-                        <div class="title-tintuc">
-                            <a href="https://genk.vn/trai-nghiem-msi-cyborg-15-thiet-ke-dam-chat-cyberpunk-cau-hinh-manh-me-20230427223556419.chn">Trải nghiệm MSI Cyborg 15: Thiết kế đậm chất cyberpunk, cấu hình mạnh mẽ</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
-                <div class="item-news">
-                    <a class="thumnail-tintuc mr-333" href="https://genk.vn/hp-victus-la-doi-tac-pc-gaming-chinh-thuc-2023-cua-doi-tuyen-t1-2023042608253601.chn">
-                        <img class="img-fluid" src="img/news/new003.jpg" alt="laptop HP victus" style="width: 250px; height: 141px;">
-                    </a>
-                    <div class="media-body">
-                        <div class="info-tintuc">
-                            <span class="date-create">
-                                "27 - 04 - 2023, 4:00pm"
-                            </span>
-                        </div>
-                        <div class="title-tintuc">
-                            <a href="https://genk.vn/hp-victus-la-doi-tac-pc-gaming-chinh-thuc-2023-cua-doi-tuyen-t1-2023042608253601.chn">HP Victus là đối tác PC gaming chính thức 2023 của đội tuyển T1</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
-                <div class="item-news">
-                    <a class="thumnail-tintuc mr-333" href="https://zingnews.vn/thuong-hieu-thiet-bi-microsoft-bi-loai-bo-post1426491.html">
-                        <img class="img-fluid" src="img/news/new004.jpg" alt="Microsoft khai tử thương hiệu tồn tại 40 năm" style="width: 250px; height: 141px;">
-                    </a>
-                    <div class="media-body">
-                        <div class="info-tintuc">
-                            <span class="date-create">
-                                "28 - 04 - 2023, 8:00pm"
-                            </span>
-                        </div>
-                        <div class="title-tintuc">
-                            <a href="https://zingnews.vn/thuong-hieu-thiet-bi-microsoft-bi-loai-bo-post1426491.html">Microsoft khai tử thương hiệu tồn tại 40 năm</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <h2 class="section-title position-relative text-uppercase mx-xl-5 mb-4"><span class="bg-secondary pr-3"></span></h2>
-    </div>
-    <!--Technology News end -->
-
-    <!-- Vendor Start -->
-    <div class="container-fluid py-5">
-        <div class="row px-xl-5">
-            <div class="col">
-                <div class="owl-carousel vendor-carousel">
-                    <div class="bg-light p-4">
-                        <img src="img/vendors/vendor_APPLE.png" alt="">
-                    </div>
-                    <div class="bg-light p-4">
-                        <img src="img/vendors/vendor_ACER.jpg" alt="">
-                    </div>
-                    <div class="bg-light p-4">
-                        <img src="img/vendors/vendor_ASUS.jpg" alt="">
-                    </div>
-                    <div class="bg-light p-4">
-                        <img src="img/vendors/vendor_DELL.png" alt="">
-                    </div>
-                    <div class="bg-light p-4">
-                        <img src="img/vendors/vendor_HP.jpg" alt="">
-                    </div>
-                    <div class="bg-light p-4">
-                        <img src="img/vendors/vendor_LENOVO.png" alt="">
-                    </div>
-                    <div class="bg-light p-4">
-                        <img src="img/vendors/vendor_LG.jpg" alt="">
-                    </div>
-                    <div class="bg-light p-4">
-                        <img src="img/vendors/vendor_MSI.jpg" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Vendor End -->
 
     <!--Footer Start-->
     <div class="container-fluid bg-dark text-secondary mt-5 pt-5">

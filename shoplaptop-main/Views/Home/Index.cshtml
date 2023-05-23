@@ -4,7 +4,7 @@
 
 @model IEnumerable<Demo.Models.Product>
 <!-- Carousel Start -->
-<div class="container-fluid mb-3">
+<div class="mb-3">
     <div class="row px-xl-5">
         <div class="col-lg-8">
             <div id="header-carousel" class="carousel slide carousel-fade mb-30 mb-lg-0" data-ride="carousel">
@@ -15,7 +15,7 @@
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item position-relative active" style="height: 430px;">
-                        <img class="position-absolute w-100 h-100" src="img/laptop1.png" style="object-fit: cover;">
+                        <img class="position-absolute w-100 h-100" src="~/img/laptop1.png" style="object-fit: cover;">
                         <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                             <div class="p-3" style="max-width: 700px;">
                                 <h1 class="display-4 text-white mb-3 animate__animated animate__fadeInDown">Gaming Laptop</h1>
@@ -25,7 +25,7 @@
                         </div>
                     </div>
                     <div class="carousel-item position-relative" style="height: 430px;">
-                        <img class="position-absolute w-100 h-100" src="img/laptop2.png" style="object-fit: cover;">
+                        <img class="position-absolute w-100 h-100" src="~/img/laptop2.png" style="object-fit: cover;">
                         <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                             <div class="p-3" style="max-width: 700px;">
                                 <h1 class="display-4 text-white mb-3 animate__animated animate__fadeInDown">Office Laptop</h1>
@@ -36,7 +36,7 @@
                         </div>
                     </div>
                     <div class="carousel-item position-relative" style="height: 430px;">
-                        <img class="position-absolute w-100 h-100" src="img/laptop3.png" style="object-fit: cover;">
+                        <img class="position-absolute w-100 h-100" src="~/img/laptop3.png" style="object-fit: cover;">
                         <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                             <div class="p-3" style="max-width: 700px;">
                                 <h1 class="display-4 text-white mb-3 animate__animated animate__fadeInDown">Graphic Laptop</h1>
@@ -50,7 +50,7 @@
         </div>
         <div class="col-lg-4">
             <div class="product-offer mb-30" style="height: 200px;">
-                <img class="img-fluid" src="img/laptop-offer-1.png" alt="">
+                <img class="img-fluid" src="~/img/laptop-offer-1.png" alt="">
                 <div class="offer-text">
                     <h6 class="text-white text-uppercase">TIẾT KIỆM 20%</h6>
                     <h3 class="text-white mb-3">Special Offer</h3>
@@ -58,7 +58,7 @@
                 </div>
             </div>
             <div class="product-offer mb-30" style="height: 200px;">
-                <img class="img-fluid" src="img/laptop-offer-2.png" alt="">
+                <img class="img-fluid" src="~/img/laptop-offer-2.png" alt="">
                 <div class="offer-text">
                     <h6 class="text-white text-uppercase">TIẾT KIỆM 20%</h6>
                     <h3 class="text-white mb-3">KHUYẾN MẠI ĐẶC BIỆT</h3>
@@ -71,7 +71,7 @@
 <!-- Carousel End -->
 
 <!-- Featured Start -->
-<div class="container-fluid pt-5">
+<div class="pt-5">
     <div class="row px-xl-5 pb-3">
         <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
             <div class="d-flex align-items-center bg-light mb-4" style="height:100px; padding: 30px;">
@@ -102,7 +102,7 @@
 <!-- Featured End -->
 
 <!-- Products Start -->
-<div class="container-fluid pt-5 pb-3">
+<div class="pt-5 pb-3">
     <h2 class="section-title position-relative text-uppercase mx-xl-5 mb-4"><span class="bg-secondary pr-3">LAPTOP BÁN CHẠY</span></h2>
 <div class="row px-xl-5">
     @foreach (var item in Model){
@@ -136,3 +136,139 @@
     </div>
     }
 </div>
+    <!-- Products End -->
+    <!-- Offer Start -->
+    <div class="pt-5 pb-3">
+        <div class="row px-xl-5">
+            <div class="col-md-6">
+                <div class="product-offer mb-30" style="height: 370px;">
+                    <img class="img-fluid" src="~/img/laptop-offer-3.png" alt="">
+                    <div class="offer-text">
+                        <h6 class="text-white text-uppercase">Save 20%</h6>
+                        <h3 class="text-white mb-3">Special Offer</h3>
+                        <a href="" class="btn btn-primary">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="product-offer mb-30" style="height: 370px;">
+                    <img class="img-fluid" src="~/img/laptop-offer-4.png" alt="">
+                    <div class="offer-text">
+                        <h6 class="text-white text-uppercase">Save 20%</h6>
+                        <h3 class="text-white mb-3">Special Offer</h3>
+                        <a href="" class="btn btn-primary">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Offer End -->
+    <!--Technology News start-->
+    <div class="pt-5 pb-3">
+        <h2 class="section-title position-relative text-uppercase mx-xl-5 mb-4"><span class="bg-secondary pr-3">TECHNOLOGY NEWS</span></h2>
+        <div class="row px-xl-5">
+            <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
+                <div class="item-news">
+                    <a class="thumnail-tintuc mr-333" href="https://www.thegioididong.com/tin-tuc/laptop-asus-tuf-gaming-4-ryzen-ra-mat-1527703">
+                        <img class="img-fluid" src="~/img/news/new001.jpg" alt="laptop ASUS TUF GAMING" style="width: 250px; height: 141px;">
+                    </a>
+                    <div class="media-body">
+                        <div class="info-tintuc">
+                            <span class="date-create">"27 - 04 - 2023, 5:00pm"</span>
+                        </div>
+                        <div class="title-tintuc">
+                            <a href="https://www.thegioididong.com/tin-tuc/laptop-asus-tuf-gaming-4-ryzen-ra-mat-1527703">Laptop gaming ASUS TUF Gaming 4 Ryzen Edition ra mắt: Ryzen 9 7940H, RTX 4070</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
+                <div class="item-news">
+                    <a class="thumnail-tintuc mr-333" href="https://genk.vn/trai-nghiem-msi-cyborg-15-thiet-ke-dam-chat-cyberpunk-cau-hinh-manh-me-20230427223556419.chn">
+                        <img class="img-fluid" src="~/img/news/new002.jpg" alt="laptop MSI Cyborg 15" style="width: 250px; height: 141px;">
+                    </a>
+                    <div class="media-body">
+                        <div class="info-tintuc">
+                            <span class="date-create">
+                                "28 - 04 - 2023, 3:00pm"
+                            </span>
+                        </div>
+                        <div class="title-tintuc">
+                            <a href="https://genk.vn/trai-nghiem-msi-cyborg-15-thiet-ke-dam-chat-cyberpunk-cau-hinh-manh-me-20230427223556419.chn">Trải nghiệm MSI Cyborg 15: Thiết kế đậm chất cyberpunk, cấu hình mạnh mẽ</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
+                <div class="item-news">
+                    <a class="thumnail-tintuc mr-333" href="https://genk.vn/hp-victus-la-doi-tac-pc-gaming-chinh-thuc-2023-cua-doi-tuyen-t1-2023042608253601.chn">
+                        <img class="img-fluid" src="~/img/news/new003.jpg" alt="laptop HP victus" style="width: 250px; height: 141px;">
+                    </a>
+                    <div class="media-body">
+                        <div class="info-tintuc">
+                            <span class="date-create">
+                                "27 - 04 - 2023, 4:00pm"
+                            </span>
+                        </div>
+                        <div class="title-tintuc">
+                            <a href="https://genk.vn/hp-victus-la-doi-tac-pc-gaming-chinh-thuc-2023-cua-doi-tuyen-t1-2023042608253601.chn">HP Victus là đối tác PC gaming chính thức 2023 của đội tuyển T1</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
+                <div class="item-news">
+                    <a class="thumnail-tintuc mr-333" href="https://zingnews.vn/thuong-hieu-thiet-bi-microsoft-bi-loai-bo-post1426491.html">
+                        <img class="img-fluid" src="~/img/news/new004.jpg" alt="Microsoft khai tử thương hiệu tồn tại 40 năm" style="width: 250px; height: 141px;">
+                    </a>
+                    <div class="media-body">
+                        <div class="info-tintuc">
+                            <span class="date-create">
+                                "28 - 04 - 2023, 8:00pm"
+                            </span>
+                        </div>
+                        <div class="title-tintuc">
+                            <a href="https://zingnews.vn/thuong-hieu-thiet-bi-microsoft-bi-loai-bo-post1426491.html">Microsoft khai tử thương hiệu tồn tại 40 năm</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h2 class="section-title position-relative text-uppercase mx-xl-5 mb-4"><span class="bg-secondary pr-3"></span></h2>
+    </div>
+    <!--Technology News end -->
+
+    <!-- Vendor Start -->
+    <div class="py-5">
+        <div class="row px-xl-5">
+            <div class="col">
+                <div class="owl-carousel vendor-carousel">
+                    <div class="bg-light p-4">
+                        <img src="~/img/vendors/vendor_APPLE.png" alt="">
+                    </div>
+                    <div class="bg-light p-4">
+                        <img src="~/img/vendors/vendor_ACER.jpg" alt="">
+                    </div>
+                    <div class="bg-light p-4">
+                        <img src="~/img/vendors/vendor_ASUS.jpg" alt="">
+                    </div>
+                    <div class="bg-light p-4">
+                        <img src="~/img/vendors/vendor_DELL.png" alt="">
+                    </div>
+                    <div class="bg-light p-4">
+                        <img src="~/img/vendors/vendor_HP.jpg" alt="">
+                    </div>
+                    <div class="bg-light p-4">
+                        <img src="~/img/vendors/vendor_LENOVO.png" alt="">
+                    </div>
+                    <div class="bg-light p-4">
+                        <img src="~/img/vendors/vendor_LG.jpg" alt="">
+                    </div>
+                    <div class="bg-light p-4">
+                        <img src="~/img/vendors/vendor_MSI.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Vendor End -->
